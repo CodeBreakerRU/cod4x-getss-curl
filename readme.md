@@ -11,5 +11,10 @@ docker compose build
 ```
 #### RUN
 ```
+docker compose up -d
+```
+
+#### Getss
+```
 curl -i http://localhost/s1.php
 ```
