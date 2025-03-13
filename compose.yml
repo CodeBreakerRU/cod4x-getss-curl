@@ -1,7 +1,8 @@
 services:
-  getss:
+  cod4x_getss:
     build: .
     container_name: cod4x_getss
+    restart: unless-stopped
     ports:
       - "80:80"
     volumes:
