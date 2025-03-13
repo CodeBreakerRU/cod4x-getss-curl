@@ -7,4 +7,3 @@ services:
       - "80:80"
     volumes:
       - ./app:/var/www/html
-    restart: always
