@@ -1,0 +1,9 @@
+services:
+  getss:
+    build: .
+    container_name: cod4x_getss
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/var/www/html
+    restart: always
